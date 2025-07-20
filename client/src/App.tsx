@@ -9,7 +9,7 @@ import NotFound from "@/pages/not-found";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route path="/lmc-website/" component={Home} />
       <Route component={NotFound} />
     </Switch>
   );
